@@ -1,6 +1,7 @@
 #include <Adafruit_GFX_RK.h>
 #include <Adafruit_LEDBackpack_RK.h>
 
+SYSTEM_MODE(SEMI_AUTOMATIC);
 Adafruit_AlphaNum4 alpha4 = Adafruit_AlphaNum4();
 
 void setup() {
